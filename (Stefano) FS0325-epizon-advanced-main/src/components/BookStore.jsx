@@ -1,8 +1,8 @@
-import { useState } from 'react'
-import { Col, Row } from 'react-bootstrap'
-import BookList from './BookList'
-import BookDetail from './BookDetail'
-import { useSelector } from 'react-redux'
+import { useState } from "react"
+import { Col, Row } from "react-bootstrap"
+import BookList from "./BookList"
+import BookDetail from "./BookDetail"
+import { useSelector } from "react-redux"
 
 const BookStore = () => {
   // const [books, setBooks] = useState([])
